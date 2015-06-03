@@ -1,12 +1,8 @@
 package com.chrisplus.rootmanagersample;
 
-import com.chrisplus.rootmanager.R;
-import com.chrisplus.rootmanager.RootManager;
-import com.chrisplus.rootmanager.container.Result;
-
+import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.View;
@@ -17,7 +13,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-public class MainActivity extends ActionBarActivity {
+import com.chrisplus.rootmanager.R;
+import com.chrisplus.rootmanager.RootManager;
+import com.chrisplus.rootmanager.container.Result;
+
+public class MainActivity extends Activity {
 
     private ToggleButton grantButton;
 
