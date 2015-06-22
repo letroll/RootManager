@@ -39,10 +39,20 @@ The project is based on [*ROOTTOOLS*](https://github.com/Stericson/RootTools). R
 * Restart Device.
 
 ## Usage & Example
-* Install RootManager by gradle:
+##### Install RootManager by gradle:
+In root project build.gradle:
 ```groovy
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+‘‘‘
+In application build.gralde:
+'''groovy
 dependencies {
-    compile 'com.chrisplus.rootmanager:library:2.0.3@aar'
+    compile 'com.github.letroll:RootManager:2.0.4'
 }
 ```
 * All functions you can access via (`RootManager`)
