@@ -48,9 +48,9 @@ allprojects {
         maven { url "https://jitpack.io" }
     }
 }
-‘‘‘
+```
 In application build.gralde:
-'''groovy
+```groovy
 dependencies {
     compile 'com.github.letroll:RootManager:2.0.4'
 }
